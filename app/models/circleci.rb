@@ -1,0 +1,2 @@
+class Circleci < ApplicationRecord
+end
