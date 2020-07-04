@@ -18,6 +18,6 @@ services:
     links:
       - db
     environment:
-      - "SELENIUM_DRIVERURL=http://selenium_chrome:4444/wd/hub"
+      - "SELENIUM_DRIVER_URL=http://selenium_chrome:4444/wd/hub"
   selenium_chrome:
-    image: selenium/standalone-chrome-debug
+      image: selenium/standalone-chrome-debug
